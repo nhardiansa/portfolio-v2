@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-4 px-6 w-full ">
+    <footer className="bg-black text-white py-4 px-6 w-full md:absolute bottom-0">
       <div className="container md:grid grid-cols-3 md:items-center">
         <div id="fast-contact" className="flex justify-center md:order-2">
           <div className="github mx-3 md:mx-5 cursor-pointer">

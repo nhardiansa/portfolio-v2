@@ -9,10 +9,10 @@ export default function Home() {
       <div className="image1 absolute animate-bounce-short left-[-15%] top-[-1%] md:top-[5%] md:left-[7%] w-9/12 md:w-max">
         <Image src={saly13} alt="ini gambar melayang2" />
       </div>
-      <div className="image1 hidden md:block absolute z-10 bottom-0 right-[10%] ">
+      <div className="image1 hidden md:block absolute bottom-[0] z-10 right-[10%] ">
         <Image src={saly8} alt="ini gambar tangan" />
       </div>
-      <div className="container px-5 flex justify-center items-center h-[80vh] md:h-screen">
+      <div className="container px-5 flex justify-center items-center h-[75vh]">
         <div className="inter text-white font-black absolute" id="main-section">
           <h1 className="text-center md:leading-tight text-4xl md:text-5xl">Hi there &#128075;<br />I'm <br className="md:hidden" />Nabil Hardiansa</h1>
           <div className="flex justify-center mt-6" id="btn-group">
