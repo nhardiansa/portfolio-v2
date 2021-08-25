@@ -10,7 +10,7 @@ export default function Layout({ children, page }) {
           <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar page={page}/>
-      <main className="pt-12">
+      <main>
         {children}
       </main>
       <Footer />

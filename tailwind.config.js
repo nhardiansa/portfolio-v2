@@ -19,6 +19,12 @@ module.exports = {
           },
         },
       },
+      backgroundImage: theme => ({
+        'github' : "url('/icons/github.svg')",
+        'telegram' : "url('/icons/telegram.svg')",
+        'linkedin' : "url('/icons/linkedin.svg')",
+        'email' : "url('/icons/email.svg')",
+      }),
     },
     container: {
       center: true,

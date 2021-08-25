@@ -21,7 +21,9 @@ const Navbar = ({page}) => {
           </Link>
         </li>
         <li className="inter mx-12 font-bold cursor-pointer">
-          <a>Contact</a>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
         </li>
         <li className="inter mx-12 font-bold cursor-pointer">
           <a>Portofolio</a>
