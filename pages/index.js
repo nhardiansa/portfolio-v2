@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import saly13 from '../public/img/Saly-13.png';
 import saly8 from '../public/img/Saly-8.png';
@@ -16,8 +17,12 @@ export default function Home() {
         <div className="inter text-white font-black absolute" id="main-section">
           <h1 className="text-center md:leading-tight text-4xl md:text-5xl">Hi there &#128075;<br />I'm <br className="md:hidden" />Nabil Hardiansa</h1>
           <div className="flex justify-center mt-6" id="btn-group">
-            <button className="mx-1.5 md:mx-2.5 py-3 md:py-4 px-4 md:px-5 bg-[#FDB827] hover:bg-[#dfa11c] rounded-lg text-black text-sm md:text-base font-semibold">About me</button>
-            <button className="mx-1.5 md:mx-2.5 py-3 md:py-4 px-4 md:px-5 bg-[#ffffff33] hover:bg-[#ffffff2c] rounded-lg text-white text-sm md:text-base font-semibold">&#128558; Let's see portfolios</button>
+            <Link href="/about">
+              <button className="mx-1.5 md:mx-2.5 py-3 md:py-4 px-4 md:px-5 bg-[#FDB827] hover:bg-[#dfa11c] rounded-lg text-black text-sm md:text-base font-semibold">About me</button>
+            </Link>
+            <Link href="portofolio">
+              <button className="mx-1.5 md:mx-2.5 py-3 md:py-4 px-4 md:px-5 bg-[#ffffff33] hover:bg-[#ffffff2c] rounded-lg text-white text-sm md:text-base font-semibold">&#128558; Let's see portfolios</button>
+            </Link>
           </div>
         </div>
       </div>

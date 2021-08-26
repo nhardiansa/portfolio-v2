@@ -47,9 +47,9 @@ export default function About() {
         <div className="skill-list md:mt-5">
           <h3 className="text-white text-xl md:text-2xl font-bold text-center md:text-left mb-4">My Skills</h3>
           <div className="cards md:grid grid-cols-3 gap-4">
-            <Skills icons={languanges} title="Programming/Markup Languange" className="mb-5 md:mb-0" />
-            <Skills icons={libfw} title="Libraries/Framework" className="mb-5 md:mb-0" />
-            <Skills icons={other} title="Other" />
+            <Skills key='1' icons={languanges} title="Programming/Markup Languange" className="mb-5 md:mb-0" />
+            <Skills key='2' icons={libfw} title="Libraries/Framework" className="mb-5 md:mb-0" />
+            <Skills key='3' icons={other} title="Other" />
           </div>
         </div>
       </div>
