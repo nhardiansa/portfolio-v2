@@ -27,6 +27,14 @@ const projects = [
     focus: "top", //use object-position in css
   },
   {
+    image: "https://i.ibb.co/SxJxHdc/Screenshot-385.png",
+    title: "EZ Wallet",
+    description:
+      "EZ Wallet is a web application that allows you to send and receive money from anywhere in the world. With EZ Wallet you can send and receive money with easy and secure.",
+    demo: "https://ez-wallet.netlify.app/",
+    focus: "top left", //use object-position in css
+  },
+  {
     image: OneMinuteQuiz,
     title: "OneMinuteQuiz",
     description:
