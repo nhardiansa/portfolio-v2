@@ -38,22 +38,22 @@ const Navbar = ({ page }) => {
         <ul className="hidden text-white container md:flex justify-center">
           <li className="inter mx-12 font-bold">
             <Link href="/">
-              <a>Home</a>
+              Home
             </Link>
           </li>
           <li className="inter mx-12 font-bold">
             <Link href="/about">
-              <a>About</a>
+              About
             </Link>
           </li>
           <li className="inter mx-12 font-bold">
             <Link href="/portofolio">
-              <a>Portofolio</a>
+              Portofolio
             </Link>
           </li>
           <li className="inter mx-12 font-bold">
             <Link href="/contact">
-              <a>Contact</a>
+              Contact
             </Link>
           </li>
         </ul>
