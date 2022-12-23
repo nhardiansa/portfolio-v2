@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import saly13 from '../public/img/Saly-13.png';
-import saly8 from '../public/img/Saly-8.png';
+import saly13 from '../../public/img/Saly-13.png';
+import saly8 from '../../public/img/Saly-8.png';
 import Layout from '../components/Layout';
 
-export default function Home() {
+const Home = () => {
   return (
     <Layout page="Home">
       <div className="image1 absolute animate-bounce-short left-[-13%] top-[3%] md:top-[5%] md:left-[7%] w-9/12 md:w-max">
@@ -29,3 +29,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export default Home

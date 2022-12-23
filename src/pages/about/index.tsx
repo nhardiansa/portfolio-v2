@@ -1,29 +1,29 @@
 import Image from "next/image";
 import Layout from "../../components/Layout";
-import saly10 from "../../public/img/Saly-10.png";
+import saly10 from "../../../public/img/Saly-10.png";
 import Skills from "../../components/Skills";
 
 // skills icons
-import Html from "../../public/icons/html-icon.svg";
-import Css from "../../public/icons/css-icon.svg";
-import Sass from "../../public/icons/sass-icon.svg";
-import Js from "../../public/icons/js-icon.svg";
+import Html from "../../../public/icons/html-icon.svg";
+import Css from "../../../public/icons/css-icon.svg";
+import Sass from "../../../public/icons/sass-icon.svg";
+import Js from "../../../public/icons/js-icon.svg";
 // import Python from "../../public/icons/python-icon.svg";
 
 // Library Framework icons
-import Reactjs from "../../public/icons/react-icon.svg";
-import Redux from "../../public/icons/redux-icon.svg";
-import Nextjs from "../../public/icons/nextjs-icon.svg";
-import Nodejs from "../../public/icons/nodejs-icon.svg";
-import Webpack from "../../public/icons/webpack-icon.svg";
-import Bootstrap from "../../public/icons/bootstrap-icon.svg";
-import Tailwind from "../../public/icons/tailwind-css-icon.svg";
+import Reactjs from "../../../public/icons/react-icon.svg";
+import Redux from "../../../public/icons/redux-icon.svg";
+import Nextjs from "../../../public/icons/nextjs-icon.svg";
+import Nodejs from "../../../public/icons/nodejs-icon.svg";
+import Webpack from "../../../public/icons/webpack-icon.svg";
+import Bootstrap from "../../../public/icons/bootstrap-icon.svg";
+import Tailwind from "../../../public/icons/tailwind-css-icon.svg";
 
 // Other icons
-import Git from "../../public/icons/git-icon.svg";
-import Ms from "../../public/icons/ms-icon.svg";
-import Figma from "../../public/icons/figma-icon.svg";
-import MySQL from "../../public/icons/mysql-logo.svg";
+import Git from "../../../public/icons/git-icon.svg";
+import Ms from "../../../public/icons/ms-icon.svg";
+import Figma from "../../../public/icons/figma-icon.svg";
+import MySQL from "../../../public/icons/mysql-logo.svg";
 
 const languanges = [Html, Css, Sass, Js];
 const libfw = [Reactjs, Redux, Nextjs, Nodejs, Bootstrap, Tailwind];

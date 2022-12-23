@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "../../components/Layout";
-import Saly14 from "../../public/img/Saly-14.png";
+import Saly14 from "../../../public/img/Saly-14.png";
 
 export default function Contact() {
   return (

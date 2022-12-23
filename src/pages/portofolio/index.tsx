@@ -2,11 +2,11 @@ import Layout from "../../components/Layout";
 import ProjectCard from "../../components/ProjectCard";
 
 // import Image assets here
-import OneMinuteQuiz from "../../public/img/portofolio/one_minute_quiz.png";
-import Pensiunanku from "../../public/img/portofolio/pensiunanku.png";
-import EdieHomepage from "../../public/img/portofolio/edie_homepage.png";
-import MovieGame from "../../public/img/portofolio/movie_game.png";
-import RecipeBlog from "../../public/img/portofolio/recipe_blog.png";
+import OneMinuteQuiz from "../../../public/img/portofolio/one_minute_quiz.png";
+import Pensiunanku from "../../../public/img/portofolio/pensiunanku.png";
+import EdieHomepage from "../../../public/img/portofolio/edie_homepage.png";
+import MovieGame from "../../../public/img/portofolio/movie_game.png";
+import RecipeBlog from "../../../public/img/portofolio/recipe_blog.png";
 
 // edit detail here
 const projects = [
