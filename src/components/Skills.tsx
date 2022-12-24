@@ -16,7 +16,7 @@ const Skills: React.FC<SkillsProps> = ({ className, icons, title }) => {
           icons ?
             icons.map((el, index) =>
               <div className={index !== icons.length - 1 ? "mr-4 mb-4" : "mb-4"}>
-                <Image src={el} />
+                <Image alt={el} src={el} />
               </div>
             ) :
             ""

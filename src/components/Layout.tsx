@@ -1,14 +1,16 @@
-import Head from 'next/head';
+'use client'
+
+// import Head from 'next/head';
 import Navbar from "./Navbar";
 import Footer from './Footer';
 
 const Layout = ({ children, page }) => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>{page}</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
       <Navbar page={page} />
       <main>
         {children}
